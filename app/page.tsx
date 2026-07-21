@@ -4,7 +4,7 @@ const Mail = ({ children }: { children: React.ReactNode }) => (
 
 function Header() {
   return <header className="site-header"><div className="bar">
-    <a className="brand" href="#top"><img src="/settlemesh-logo.png" alt="SettleMesh" /></a>
+    <a className="brand" href="#top"><img src="/SettleMesh-Header-Logo.svg" alt="SettleMesh" /></a>
     <nav><a href="#how">How it works</a><a href="#partners">Partners</a><a href="#merchants">Merchants</a><a href="#about">About</a><a href="#contact">Contact</a><a className="nav-cta" href="mailto:partnerships@settlemesh.co.uk?subject=SettleMesh%20partnership%20discussion">Discuss a partnership</a></nav>
     <details className="mobile-menu"><summary aria-label="Open menu">Menu</summary><div><a href="#how">How it works</a><a href="#partners">Partners</a><a href="#merchants">Merchants</a><a href="#about">About</a><a href="#contact">Contact</a></div></details>
   </div></header>;
