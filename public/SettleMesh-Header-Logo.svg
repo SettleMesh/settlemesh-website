@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="42" viewBox="0 0 238 42" role="img" aria-labelledby="title desc">
+  <title id="title">SettleMesh</title>
+  <desc id="desc">SettleMesh teal network symbol and white wordmark</desc>
+  <g fill="none" stroke="#18B7B5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 5h10l10 8h9l10 8h8"/>
+    <path d="M2 13h15l8 8h24"/>
+    <path d="M2 21h47"/>
+    <path d="M2 29h15l8-8"/>
+    <path d="M2 37h10l10-8h9l10-8"/>
+  </g>
+  <g fill="#18B7B5">
+    <circle cx="2" cy="5" r="2"/><circle cx="2" cy="13" r="2"/><circle cx="2" cy="21" r="2"/><circle cx="2" cy="29" r="2"/><circle cx="2" cy="37" r="2"/>
+    <circle cx="17" cy="13" r="2"/><circle cx="17" cy="29" r="2"/><circle cx="25" cy="21" r="2.2"/><circle cx="41" cy="21" r="2.2"/><circle cx="49" cy="21" r="2"/>
+  </g>
+  <text x="59" y="28.5" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="-.45">SettleMesh</text>
+</svg>
