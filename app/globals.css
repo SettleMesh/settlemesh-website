@@ -6,3 +6,54 @@
 @media(max-width:850px){.site-header nav{display:none}.mobile-menu{display:block;position:relative}.mobile-menu summary{cursor:pointer;font-size:13px;list-style:none}.mobile-menu div{background:var(--navy);border:1px solid #29415e;display:grid;gap:18px;padding:20px;position:absolute;right:0;top:28px;width:210px}.hero-grid,.split-grid{grid-template-columns:1fr;gap:48px}.diagram{margin-top:20px}.three,.dev-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr;gap:26px}.steps li{border-left:1px solid #bdd2dc;border-top:0;padding:2px 0 25px 68px;text-align:left}.steps i{left:-1px;top:-8px}.steps p{margin:0}.section,.development{padding:60px 0}}
 @media(max-width:560px){.wrap,.bar{width:min(100% - 34px,1180px)}.hero{padding:58px 0}.hero h1{font-size:39px}.hero p{font-size:15px}.actions{align-items:flex-start;flex-direction:column}.diagram{transform:scale(.78);margin-inline:-48px}.section h2,.development h2{font-size:29px}.split-grid{gap:35px}footer .wrap{gap:15px;flex-direction:column}footer a{margin-left:0;margin-right:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+html,
+body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+.hero-grid > *{
+  min-width:0;
+}
+
+@media(max-width:560px){
+  .hero h1{
+    font-size:clamp(34px,10.5vw,39px);
+    overflow-wrap:normal;
+  }
+
+  .hero h1 br{
+    display:none;
+  }
+
+  .hero p{
+    width:100%;
+    max-width:100%;
+  }
+
+  .diagram{
+    width:100%;
+    max-width:100%;
+    margin:24px 0 0;
+    transform:none;
+  }
+
+  .diagram .box{
+    width:27%;
+    min-width:0;
+    height:64px;
+    padding:6px;
+    font-size:9px;
+  }
+
+  .diagram .box.core{
+    width:34%;
+    height:88px;
+  }
+
+  .diagram .line{
+    flex:1 1 14px;
+    width:auto;
+    min-width:10px;
+  }
+}
